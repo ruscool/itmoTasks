@@ -11,6 +11,7 @@ import java.util.Scanner;
 import itmoTasks.Task2_1.*;
 import itmoTasks.Task2_2.*;
 import itmoTasks.Task2_3_1.*;
+import itmoTasks.Task2_4.users.AlmostMain;
 
 public class subMenu {
     public static void runSubMenu() {
@@ -24,6 +25,7 @@ public class subMenu {
         dynamicArray.add("21. Классы и объекты");
         dynamicArray.add("22. Абстрактные классы");
         dynamicArray.add("23. Интерфейсы");
+        dynamicArray.add("24. Модификаторы доступа");
 
         for (int i = 0; i < dynamicArray.size(); i++) {
             System.out.println(dynamicArray.get(i));
@@ -91,6 +93,9 @@ public class subMenu {
                     content.printContent();
                 }
 
+                break;
+            case 24:
+                AlmostMain.mainSub();
                 break;
             default:
                 System.out.println("Неправильно введен номер");
