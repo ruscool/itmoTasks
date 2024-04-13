@@ -16,6 +16,7 @@ import itmoTasks.Task2_5.*;
 import itmoTasks.Tasks2_6.TaskSubMain;
 import itmoTasks.Task4_1.SubMainTask4_1;
 import itmoTasks.Task4_2.SubMainTask4_2;
+import itmoTasks.Task4_3.SubMainTask4_3;
 
 public class subMenu {
     public static void runSubMenu() {
@@ -34,6 +35,7 @@ public class subMenu {
         dynamicArray.add("26. Static and final");
         dynamicArray.add("41. List");
         dynamicArray.add("42. Set");
+        dynamicArray.add("43. Map");
 
         for (int i = 0; i < dynamicArray.size(); i++) {
             System.out.println(dynamicArray.get(i));
@@ -116,6 +118,9 @@ public class subMenu {
                 break;
             case 42:
                 SubMainTask4_2.subClassMain();
+                break;
+            case 43:
+                SubMainTask4_3.subMain();
                 break;
             default:
                 System.out.println("Неправильно введен номер");
