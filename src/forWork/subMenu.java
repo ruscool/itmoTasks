@@ -18,6 +18,7 @@ import itmoTasks.Task4_1.SubMainTask4_1;
 import itmoTasks.Task4_2.SubMainTask4_2;
 import itmoTasks.Task4_3.SubMainTask4_3;
 import itmoTasks.Task5_1.SubMainTask5_1;
+import itmoTasks.Task6_1.SubMainTask6_1;
 
 public class subMenu {
     public static void runSubMenu() {
@@ -38,6 +39,7 @@ public class subMenu {
         dynamicArray.add("42. Set");
         dynamicArray.add("43. Map");
         dynamicArray.add("51. Generics");
+        dynamicArray.add("61. Лямбда-выражения");
 
         for (int i = 0; i < dynamicArray.size(); i++) {
             System.out.println(dynamicArray.get(i));
@@ -126,6 +128,9 @@ public class subMenu {
                 break;
             case 51:
                 SubMainTask5_1.subMainTask5_1();
+                break;
+            case 61:
+                SubMainTask6_1.subMainTask6_1();
                 break;
             default:
                 System.out.println("Неправильно введен номер");
