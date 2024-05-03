@@ -20,6 +20,7 @@ import itmoTasks.Task4_3.SubMainTask4_3;
 import itmoTasks.Task5_1.SubMainTask5_1;
 import itmoTasks.Task6_1.SubMainTask6_1;
 import itmoTasks.Task6_2.SubMainTask6_2;
+import itmoTasks.Task7_1.SubMainTask7_1;
 
 public class subMenu {
     public static void runSubMenu() {
@@ -42,6 +43,7 @@ public class subMenu {
         dynamicArray.add("51. Generics");
         dynamicArray.add("61. Лямбда-выражения");
         dynamicArray.add("62. Stream API");
+        dynamicArray.add("71. Интерфейсы Comparable и Comparator");
 
         for (int i = 0; i < dynamicArray.size(); i++) {
             System.out.println(dynamicArray.get(i));
@@ -136,6 +138,9 @@ public class subMenu {
                 break;
             case 62:
                 SubMainTask6_2.subMainTask6_2();
+                break;
+            case 71:
+                SubMainTask7_1.subMain();
                 break;
             default:
                 System.out.println("Неправильно введен номер");
