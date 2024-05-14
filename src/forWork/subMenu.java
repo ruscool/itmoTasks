@@ -26,6 +26,7 @@ import itmoTasks.Task9_1.SubMainTask9_1;
 import itmoTasks.Task10_1.SubMainTask10_1;
 import itmoTasks.Task11_1.SubMainTask11_1;
 import itmoTasks.Task12_1.SubMainTask12_1;
+import itmoTasks.Task13_1.SubMainTask13_1;
 
 public class subMenu {
     public static void runSubMenu() {
@@ -54,6 +55,7 @@ public class subMenu {
         dynamicArray.add("101. Многопоточность");
         dynamicArray.add("111. Дата и время");
         dynamicArray.add("121. Работа с файлами");
+        dynamicArray.add("131. Потоки ввода-вывода");
 
         for (int i = 0; i < dynamicArray.size(); i++) {
             System.out.println(dynamicArray.get(i));
@@ -166,6 +168,9 @@ public class subMenu {
                 break;
             case 121:
                 SubMainTask12_1.subMain();
+                break;
+            case 131:
+                SubMainTask13_1.subMain();
                 break;
             default:
                 System.out.println("Неправильно введен номер");
