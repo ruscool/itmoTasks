@@ -1,5 +1,3 @@
-package forWork;
-
 import itmoTasks.Task1_2;
 import itmoTasks.Task1_3;
 import itmoTasks.Task1_4;
@@ -28,8 +26,8 @@ import itmoTasks.Task11_1.SubMainTask11_1;
 import itmoTasks.Task12_1.SubMainTask12_1;
 import itmoTasks.Task13_1.SubMainTask13_1;
 
-public class subMenu {
-    public static void runSubMenu() {
+public class SubMenu {
+    public void runSubMenu() {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> dynamicArray = new ArrayList<>();
 
